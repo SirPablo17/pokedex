@@ -1,0 +1,25 @@
+/* ========================================================================
+ * ATOM: Cores (Variáveis CSS)
+ * ======================================================================== */
+ :root {
+    /* Cores Oficiais Pokémon (Exemplos) */
+    --color-primary: #CC0000; /* Vermelho */
+    --color-secondary: #3B4CCA; /* Azul */
+    --color-text: #333333;
+    --color-background-light: #F0F0F0;
+    --color-white: #FFFFFF;
+
+    /* Cores de Status */
+    --color-error: #D32F2F;
+    --color-warning-bg: #FFF3CD;
+    --color-warning-text: #856404;
+    --color-error-bg: #F8D7DA;
+    --color-error-border: #F5C6CB;
+
+    /* Espaçamentos (Multiplos de 8px) */
+    --space-xs: 4px;
+    --space-sm: 8px;
+    --space-md: 16px;
+    --space-lg: 24px;
+    --space-xl: 32px;
+}

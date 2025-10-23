@@ -1,0 +1,19 @@
+/* ========================================================================
+ * ATOM: Utilities (Classes utilitárias de uso único)
+ * ======================================================================== */
+
+/* Visibilidade */
+.hidden {
+    display: none !important;
+}
+
+/* Espaçamento */
+.m-y-lg { /* Margin Y (top/bottom) Large */
+    margin-top: var(--space-lg);
+    margin-bottom: var(--space-lg);
+}
+
+/* Alinhamento de Texto */
+.text-center {
+    text-align: center;
+}

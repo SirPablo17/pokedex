@@ -1,0 +1,23 @@
+/* ========================================================================
+ * MOLECULE: Status Messages (Loading e Erro)
+ * ======================================================================== */
+
+ #loading, #error {
+    padding: var(--space-md);
+    border-radius: 4px;
+    margin: var(--space-md) auto; /* Usamos 'auto' para centralizar no organismo */
+    width: fit-content;
+    font-weight: bold;
+}
+
+#loading {
+    background-color: var(--color-warning-bg);
+    color: var(--color-warning-text);
+    border: 1px solid #FFEEBA;
+}
+
+#error {
+    background-color: var(--color-error-bg);
+    color: var(--color-error);
+    border: 1px solid var(--color-error-border);
+}
