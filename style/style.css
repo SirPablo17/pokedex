@@ -1,0 +1,18 @@
+/* ========================================================================
+ * ARQUITETURA CSS ATÔMICA
+ * Este arquivo importa todos os outros blocos de estilos.
+ * ======================================================================== */
+
+/* 1. ATOMS (Átomos) - Base e Utilidades */
+@import url('atoms/colors.css');
+@import url('atoms/base.css');
+@import url('atoms/utilities.css');
+
+/* 2. MOLECULES (Moléculas) - Componentes Simples */
+@import url('molecules/pokemon-card.css');
+@import url('molecules/status-message.css');
+@import url('molecules/serach-form.css');
+
+/* 3. ORGANISMS (Organismos) - Seções de Layout */
+@import url('organisms/pokedex-container.css');
+@import url('organisms/pagination.css');
